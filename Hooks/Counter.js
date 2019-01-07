@@ -24,7 +24,12 @@ export default function Counter() {
             <div style={{ marginTop: '20px' }}>
                 <Dummy title={`${num}-${count}`} />
             </div>
-            <Link to={'/test'} >Go test page</Link>
+            <div>
+                <Link to={'/renderProp'} >Go to renderProp page</Link>
+            </div>
+            <div>
+                <Link to={'/hooks'} >Go to hooks page</Link>
+            </div>
         </React.Fragment>
     );
 }
